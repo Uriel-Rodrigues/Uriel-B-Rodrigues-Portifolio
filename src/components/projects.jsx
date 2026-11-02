@@ -9,17 +9,19 @@ const Projects = () => {
 
     const [card, setCard] = useState([
         {
-            image:"./linkTree.webp",
-            titulo: "LinkTree",
-            descricao: "Projeto desenvolvido para centralizar links e facilitar o acesso às minhas redes sociais, portfólio e outros canais de contato em uma única página. Com uma interface moderna, responsiva e temática Matrix",
+            id: 1,
+            image:"./indecor.webp",
+            titulo: "InDecor - Landing Page",
+            descricao: "Landing page desenvolvida para um curso fictício, com design moderno, acolhedor e identidade visual própria. O projeto apresenta os conteudos e a proposta do curso por meio de uma interface intuitiva, responsiva e visualmente atrativa, proporcionando uma experiência agradável aos visitantes",
             
             tecnologias: [
                 {icon: BiLogoHtml5, nome: "HTML"}, 
                 {icon: BiLogoCss3, nome: "CSS" }],
-            link: "https://gt20260402-linktree.onrender.com/" 
+            link: "https://landingpage-indecor.onrender.com" 
         },
 
         {
+            id: 2,
             image:"./mewo-cafe.webp",
             titulo: "Mewo Cafe - Landing Page",
             descricao: "Landing page desenvolvida para uma cafeteria fictícia, com design moderno, acolhedor e identidade visual própria. O projeto apresenta os produtos e a proposta da marca por meio de uma interface intuitiva, responsiva e visualmente atrativa, proporcionando uma experiência agradável aos visitantes.",
@@ -31,6 +33,7 @@ const Projects = () => {
             link: "https://gt20260404-landingpage-mewocafe.onrender.com/" 
         },
         {
+            id: 3,
             image:"./projeto-fashion.webp",
             titulo: "Fashion - Landing Page",
             descricao: "Landing page desenvolvida para uma marca fictícia de roupas, com design moderno, acolhedor e identidade visual própria. O projeto apresenta os produtos e a proposta da marca por meio de uma interface intuitiva, responsiva e visualmente atrativa, proporcionando uma experiência agradável aos visitantes.",
@@ -45,40 +48,61 @@ const Projects = () => {
             link: "https://gt20260404-landingpage-fashion.onrender.com/" 
         },
         {
+            id: 4,
             image:"./finControl.png",
             titulo: "FinControl - Controle Financeiro Completo",
-            descricao: "Sistema de controle financeiro full stack desenvolvido com React, Next.js, Node.js, TypeScript, JavaScript e Tailwind CSS. O projeto conta com uma interface intuitiva para gerenciamento de receitas e despesas, visualização de dados em gráficos e acompanhamento financeiro. O backend utiliza Node.js e Express para a construção da API, com TypeORM para gerenciamento do banco de dados, autenticação com JWT, criptografia de senhas com bcryptjs e envio de e-mails com Nodemailer. Também foram utilizadas tecnologias e bibliotecas como MySQL2, PostgreSQL (pg), Yup, Axios, React Hook Form e Recharts, proporcionando validação de dados, comunicação entre frontend e backend e uma experiência completa de gestão financeira.",
+            descricao: "Sistema de controle financeiro full stack. O projeto conta com uma interface intuitiva para gerenciamento de receitas e despesas, visualização de dados em gráficos e acompanhamento financeiro. backend com autenticação com JWT, criptografia de senhas e envio de e-mails.",
             
             tecnologias: [
                 {icon: DiMysql, nome: "Mysql"}, 
                 {icon: BiLogoTailwindCss , nome: "CSS" },
                 {icon: BiLogoReact , nome:"React"},
-                {icon: BiLogoNodejs , nome:"javaScript"},
+                {icon: BiLogoNodejs , nome:"Nodejs"},
+                {icon: BiLogoJavascript, nome:"javaScript"},
                 {icon: BiLogoTypescript, nome:"Typescript"},
                 {icon: BiLogoPostgresql, nome:"Postgresql"},
             ],
 
-            link: "https://gt20260404-landingpage-fashion.onrender.com/" 
+            link: "https://fincontrol-controle-financeiro-pessoal-3no2.onrender.com" 
+        },
+        {
+            id: 5,
+            image:"./regenciador.webp",
+            titulo: "Gerenciador de Usuários e Produtos",
+            descricao: "Aplicação full stack, para facilitar o gerenciamento de usuários e produtos, permitindo cadastrar, visualizar, editar e excluir registros de forma prática e organizada. projeto com interface intuitiva e responsiva, integração com banco de dados. O backend com autenticação com JWT, criptografia de senhas e envio de e-mails.",
+            
+            tecnologias: [
+                {icon: DiMysql, nome: "Mysql"}, 
+                {icon: BiLogoTailwindCss , nome: "CSS" },
+                {icon: BiLogoReact , nome:"React"},
+                {icon: BiLogoNodejs , nome:"Nodejs"},
+                {icon: BiLogoJavascript, nome:"javaScript"},
+                {icon: BiLogoTypescript, nome:"Typescript"},
+                {icon: BiLogoPostgresql, nome:"Postgresql"},
+            ],
+
+            link: "https://front-end-react-0rfa.onrender.com" 
         }
 
 
     ])
 
     return ( 
-        <div className="mt-5">
-
+        <section id="projects" className="mt-5 scroll-mt-24">
             <div className="mb-10">
-                <p className=" ml-5 text-green-500">&gt;_ SYSTEM MENSAGE 03</p>
-                <span className=" ml-5 text-2xl font-extrabold text-green-600">PROJECTS</span>
+                <p className=" ml-5 mb-5 text-green-500 lg:text-3xl"> &gt;_ SYSTEM MENSAGE 03</p>
+                <span className=" ml-5 text-2xl lg:text-4xl font-extrabold text-green-600">PROJETOS</span>
+
                 <div className="ml-5 mt-5 rouded border border-green-600 h-0 w-50"></div>
             </div>
 
+            <div className=" lg:grid  lg:grid-cols-2">
                 {
                 card.map((c) => {
                         const Icon = c.icon; 
 
                         return (
-                        <div>
+                        <div key={c.id}>
                             <div className="mb-10 p-3 border border-green-500 w-[90%] m-auto bg-green-950/50 shadow-[0_0_15px_rgba(6,182,212,0.5)]">
                                 <img src={c.image} alt="linkTree" className="border border-green-500 rounded-xl w-full mb-3"/>
                                 
@@ -93,7 +117,7 @@ const Projects = () => {
                                         <p className="text-green-500 text-2xl mb-3">// Tecnologias </p>
                                     </div>
 
-                                    <div className="grid grid-cols-4 gap-5 mb-5">
+                                    <div className="grid grid-cols-4 lg:grid-cols-5 gap-5 mb-5">
                                         {
                                             c.tecnologias.map((tecnologia, index) => {
                                                 const Icon = tecnologia.icon
@@ -116,7 +140,8 @@ const Projects = () => {
                         </div>
                     )})
                 }
-        </div>
+            </div>
+        </section>
      );
 }
  

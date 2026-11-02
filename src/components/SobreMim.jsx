@@ -2,10 +2,10 @@ import { BiChevronRight, BiCog, BiData, BiDesktop, BiSolidUser } from "react-ico
 
 const SobreMim = () => {
     return ( 
-        <section className="mt-5 ">
+        <section id="about" className="mt-5 scroll-mt-24">
             <div className="mb-10">
-                <p className=" ml-5 mb-5 text-green-500"> &gt;_ SYSTEM MENSAGE 01</p>
-                <span className=" ml-5 text-2xl lg:text-4xl font-extrabold text-green-600">ABOUT ME</span>
+                <p className=" ml-5 mb-5 text-green-500 lg:text-3xl"> &gt;_ SYSTEM MENSAGE 01</p>
+                <span className=" ml-5 text-2xl lg:text-4xl font-extrabold text-green-600">SOBRE MIM</span>
 
                 <div className="ml-5 mt-5 rouded border border-green-600 h-0 w-50"></div>
             </div>
@@ -40,7 +40,7 @@ const SobreMim = () => {
                         </div>
 
                         <div className=" m-3 p-5">
-                            <p className="text-white text-justify">Experience as a Technical Support Analyst. I am currently focusing my career on Full Stack Development, working as a freelancer for the past 1 year and 7 months. I have knowledge of <strong className="text-green-500">HTML, CSS, JavaScript, TypeScript, React, Tailwind CSS, Node.js, Python, MySQL, PostgreSQL, Git e GitHub, além de experiência com Apache, Portainer and Rancher</strong></p>
+                            <p className="text-green-200 text-justify">Experiência como Analista Técnico de Suporte. Atualmente, estou focando minha carreira em Desenvolvimento Full Stack, trabalhando como freelancer há 1 ano e 7 meses. Possuo conhecimento em <strong className="text-green-500">HTML, CSS, JavaScript, TypeScript, React, Tailwind CSS, Node.js, Python, MySQL, PostgreSQL, Git e GitHub, além de experiência com Apache, Portainer and Rancher</strong></p>
                         </div>
                     </div>
 
@@ -76,7 +76,8 @@ const SobreMim = () => {
                                 <BiDesktop className="fill-green-400 w-10 h-10" name='desktop' />
                                 <div>
                                     <p className="text-green-500">Front End</p>
-                                    <p className="text-white">modern and responsive interfaces</p>
+                                    <p className="text-green-200">interfaces modernas e responsivas
+</p>
                                 </div>
                             </div>
                         
@@ -84,22 +85,22 @@ const SobreMim = () => {
                                 <BiData className="fill-green-400 w-10 h-10" name='data' />
                                 <div>
                                     <p className="text-green-500">Back End</p>
-                                    <p className="text-white">Data Bases and API's</p>
+                                    <p className="text-green-200">Bancos de dados e APIs</p>
                                 </div>
                             </div>
 
                             <div className="flex items-center gap-5 pl-7">
                                 <BiSolidUser  className="fill-green-400 w-10 h-10" name='user' />
                                 <div>
-                                    <p className="text-green-500">Technical Support Analyst</p>
-                                    <p className="text-white">troubleshooting and user contact</p>
+                                    <p className="text-green-500">Analista Técnico de Suporte</p>
+                                    <p className="text-green-200">Solução de problemas e contato com o usuário</p>
                                 </div>
                             </div>
                             <div className="flex items-center gap-5 pl-7">
                                 <BiCog  className="fill-green-400 w-10 h-10" name='cog' />
                                 <div>
                                     <p className="text-green-500">DevOps</p>
-                                    <p className="text-white">Apache, Portainer, Rancher, Git, GitHub</p>
+                                    <p className="text-green-200">Apache, Portainer, Rancher, Git, GitHub</p>
                                 </div>
                             </div>
                             <p className="text-green-400">&lt;<span className="text-red-500">section/</span>&gt;</p>

@@ -70,7 +70,7 @@ const Header = () => {
                 <a
                     href="#home"
                     onClick={fecharMenu}
-                    className="text-green-500 hover:border hover:rounded hover:p-1 hover:px-2 w-fit duration-300"
+                    className="text-green-500 hover:text-green-200 hover:p-1 hover:border-b hover:border-b-green-200 w-fit duration-300"
                 >
                     HOME
                 </a>
@@ -78,7 +78,7 @@ const Header = () => {
                 <a
                     href="#about"
                     onClick={fecharMenu}
-                    className="text-green-500 hover:border hover:rounded hover:p-1 hover:px-2 w-fit duration-300"
+                    className="text-green-500 hover:text-green-200 hover:p-1 hover:border-b hover:border-b-green-200 w-fit duration-300"
                 >
                     ABOUT
                 </a>
@@ -86,7 +86,7 @@ const Header = () => {
                 <a
                     href="#skills"
                     onClick={fecharMenu}
-                    className="text-green-500 hover:border hover:rounded hover:p-1 hover:px-2 w-fit duration-300"
+                    className="text-green-500 hover:text-green-200 hover:p-1 hover:border-b hover:border-b-green-200 w-fit duration-300"
                 >
                     SKILLS
                 </a>
@@ -94,7 +94,7 @@ const Header = () => {
                 <a
                     href="#projects"
                     onClick={fecharMenu}
-                    className="text-green-500 hover:border hover:rounded hover:p-1 hover:px-2 w-fit duration-300"
+                    className="text-green-500 hover:text-green-200 hover:p-1 hover:border-b hover:border-b-green-200 w-fit duration-300"
                 >
                     PROJECTS
                 </a>
@@ -102,7 +102,7 @@ const Header = () => {
                 <a
                     href="#contacts"
                     onClick={fecharMenu}
-                    className="text-green-500 hover:border hover:rounded hover:p-1 hover:px-2 w-fit duration-300"
+                    className="text-green-500 hover:text-green-200 hover:p-1 hover:border-b hover:border-b-green-200 w-fit duration-300"
                 >
                     CONTACTS
                 </a>
