@@ -38,7 +38,7 @@ const Contatos = () => {
     return ( 
         <section id="contacts" className="mt-5 scroll-mt-24">
             <div className="mb-10">
-                <p className=" ml-5 mb-5 text-green-500 lg:text-3xl"> &gt;_ SYSTEM MENSAGE 04</p>
+                <p className="ml-5 mb-5 text-green-500 lg:text-3xl"> &gt;_ SYSTEM MENSAGE 04</p>
                 <span className=" ml-5 text-2xl lg:text-4xl font-extrabold text-green-600">CONTATOS</span>
 
                 <div className="ml-5 mt-5 rouded border border-green-600 h-0 w-50"></div>
@@ -48,7 +48,7 @@ const Contatos = () => {
 
             <div className="lg:flex ml-10">
 
-                <div className="ml-5 mb-5 flex flex-col gap-3 lg:max-w-[40%]  ">
+                <div className="lg:mb-5 flex flex-col gap-3 lg:max-w-[40%]  ">
                     <h1 className="text-green-500 text-xl font-bold">INICIAR UMA NOVA CONEXÃO.</h1>
                     <p className="text-green-200">Possui Ideias, Duvidas ou Propostas ? entre em contato vamos discutir as possibilidades!</p>
 
@@ -62,14 +62,14 @@ const Contatos = () => {
                         <p className="text-green-500"> foryaleza/ce</p>
                     </div>
 
-                    <div className="text-green-500 border-green-300 border-2 bg-green-950/90 font-semibold leading-15 px-8 rounded-full flex items-center gap-3 w-max mt-5 lg:hover:bg-linear-to-r lg:hover:from-green-200 lg:hover:via-green-300 lg:hover:to-green-400 lg:hover:scale-110 lg:hover:text-black lg:shadow-none lg:hover:shadow-[0_0_15px_rgba(6,182,212,0.5)] duration-300">
+                    <div className="text-green-500 border-green-300 border-2 bg-green-950/90 font-semibold leading-15 px-8 rounded-full flex items-center gap-3 w-max mt-5 lg:hover:bg-linear-to-r lg:hover:from-green-200 lg:hover:via-green-300 lg:hover:to-green-400 lg:hover:scale-110 lg:hover:text-black lg:shadow-none lg:hover:shadow-[0_0_15px_rgba(6,182,212,0.5)] duration-300 mb-10">
                         <BiLogoWhatsapp className="fill-green-500 w-10 h-10" />
-                        <a href="https://wa.me/5585987187800" className="font-semibold" target="_blank">Conectar com Whatapp</a>
+                        <a href="https://wa.me/5585987187800" className="font-semibold" target="_blank" >Conectar com Whatapp</a>
                     </div>
                 </div>
 
 
-                <div className="max-w-[90%] lg:w-150 m-auto ">
+                <div className="max-w-[90%] lg:w-150 lg:m-auto ">
                     <form onSubmit={onSubmit} ref={form} className="flex flex-col gap-3" >
                         <label htmlFor="nome" className="text-green-200 font-semibold">Nome:</label>
                         <input type="text" name="nome" className="bg-green-500/50 rounded-xl h-15 focus:outline-none focus:border-green-300 focus:border-2 focus:shadow-[0_0_15px_rgba(6,182,212,0.5)] p-2 text-green-200 font-semibold" required placeholder="Seu Nome"/>
