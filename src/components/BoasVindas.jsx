@@ -12,20 +12,22 @@ const BoasVindas = () => {
 
             <div className="w-full flex flex-col items-center lg:w-[40%] lg:items-start">
 
-                <div className="mt-10">
-                    <p className="text-green-500 mb-10 lg:text-3xl">&gt;_ SYSTEM ONLINE</p>
+                <div className="mt-10 ml-3">
+                    <p className="text-green-500 mb-10 text-2xl lg:text-3xl">&gt;_ SYSTEM ONLINE</p>
                     <p className="text-green-200 mb-5">Bem vindo(a) ao meu portfolio pessoal! eu sou </p>
                     <h1 className=
                     "font-extrabold text-3xl bg-linear-to-r from-green-600 via-green-500 via-green-400 to-green-300 bg-clip-text text-transparent mb-2 ">URIEL B. RODRIGUES</h1>
                     <h2 className=" bg-gradient-to-r from-green-600 via-green-500 via-green-400 to-green-300 bg-clip-text text-transparent text-2xl lg:text-6xl font-normal mb-5">&lt; FULL STACK DEVELOPER /&gt;</h2>
 
-                    <div className="rouded border border-green-600 h-0"></div>
+                </div>
+                <div className="w-full flex flex-col ml-5 lg:w-[40%] lg:items-start">
+                    <div className="rouded border border-green-600 w-full h-0"></div>
 
                     <p className="text-green-600 w-60 text-white font-light lg:text-xl"><i>" Open your mind! "</i></p>
 
                     <p className="text-green-500 mt-5">— The Matrix (1999)</p>
-                </div>
             
+                </div>
             
                 <div className="mt-10 w-full flex justify-around lg:justify-start lg:gap-10">
 

@@ -117,7 +117,7 @@ const Projects = () => {
                                         <p className="text-green-500 text-2xl mb-3">// Tecnologias </p>
                                     </div>
 
-                                    <div className="grid grid-cols-4 lg:grid-cols-5 gap-5 mb-5">
+                                    <div className="grid grid-cols-3 lg:grid-cols-5 gap-5 mb-5">
                                         {
                                             c.tecnologias.map((tecnologia, index) => {
                                                 const Icon = tecnologia.icon
