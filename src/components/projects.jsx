@@ -20,18 +20,18 @@ const Projects = () => {
             link: "https://landingpage-indecor.onrender.com" 
         },
 
-        {
-            id: 2,
-            image:"./mewo-cafe.webp",
-            titulo: "Mewo Cafe - Landing Page",
-            descricao: "Landing page desenvolvida para uma cafeteria fictícia, com design moderno, acolhedor e identidade visual própria. O projeto apresenta os produtos e a proposta da marca por meio de uma interface intuitiva, responsiva e visualmente atrativa, proporcionando uma experiência agradável aos visitantes.",
+        // {
+        //     id: 2,
+        //     image:"./mewo-cafe.webp",
+        //     titulo: "Mewo Cafe - Landing Page",
+        //     descricao: "Landing page desenvolvida para uma cafeteria fictícia, com design moderno, acolhedor e identidade visual própria. O projeto apresenta os produtos e a proposta da marca por meio de uma interface intuitiva, responsiva e visualmente atrativa, proporcionando uma experiência agradável aos visitantes.",
             
-            tecnologias: [
-                {icon: BiLogoHtml5, nome: "HTML"}, 
-                {icon: BiLogoCss3, nome: "CSS" }],
+        //     tecnologias: [
+        //         {icon: BiLogoHtml5, nome: "HTML"}, 
+        //         {icon: BiLogoCss3, nome: "CSS" }],
 
-            link: "https://gt20260404-landingpage-mewocafe.onrender.com/" 
-        },
+        //     link: "https://gt20260404-landingpage-mewocafe.onrender.com/" 
+        // },
         {
             id: 3,
             image:"./projeto-fashion.webp",
