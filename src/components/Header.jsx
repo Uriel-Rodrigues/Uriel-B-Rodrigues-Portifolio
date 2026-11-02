@@ -80,7 +80,7 @@ const Header = () => {
                     onClick={fecharMenu}
                     className="text-green-500 hover:text-green-200 hover:p-1 hover:border-b hover:border-b-green-200 w-fit duration-300"
                 >
-                    ABOUT
+                    SOBRE
                 </a>
 
                 <a
@@ -88,7 +88,7 @@ const Header = () => {
                     onClick={fecharMenu}
                     className="text-green-500 hover:text-green-200 hover:p-1 hover:border-b hover:border-b-green-200 w-fit duration-300"
                 >
-                    SKILLS
+                    STACK
                 </a>
 
                 <a
@@ -96,7 +96,7 @@ const Header = () => {
                     onClick={fecharMenu}
                     className="text-green-500 hover:text-green-200 hover:p-1 hover:border-b hover:border-b-green-200 w-fit duration-300"
                 >
-                    PROJECTS
+                    PROJETOS
                 </a>
 
                 <a
@@ -104,7 +104,7 @@ const Header = () => {
                     onClick={fecharMenu}
                     className="text-green-500 hover:text-green-200 hover:p-1 hover:border-b hover:border-b-green-200 w-fit duration-300"
                 >
-                    CONTACTS
+                    CONTATOS
                 </a>
             </nav>
 
