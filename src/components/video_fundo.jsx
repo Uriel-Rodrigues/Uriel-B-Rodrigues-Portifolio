@@ -15,7 +15,7 @@ const VideoFundo = () => {
             </div>
 
             {/* CAMADA ESCURA*/}
-            <div className="fixed inset-0 z-[-5] bg-black/60"></div>
+            <div className="fixed inset-0 z-[-5] bg-black/80"></div>
         </div>
     )
 }
