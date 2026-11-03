@@ -133,7 +133,7 @@ const Projects = () => {
 
                                     <div className="flex items-center border border-green-500 text-green-500 text-xl font-semibold gap-2 justify-center p-2 max-w-[70%] m-auto lg:hover:bg-green-300 duration-300 lg:hover:text-green-950">
                                         <BiLink className="w-5 h-auto" />
-                                        <a href={c.link} target="_blank" className="text-2xl">Viel Project</a>
+                                        <a href={c.link} target="_blank" className="text-2xl">View Project</a>
                                     </div>
                                 </div>
                             </div>
