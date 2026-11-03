@@ -103,7 +103,7 @@ const SobreMim = () => {
                                     <p className="text-green-200">Apache, Portainer, Rancher, Git, GitHub</p>
                                 </div>
                             </div>
-                            <p className="text-green-400">&lt;<span className="text-red-500">section/</span>&gt;</p>
+                            <p className="text-green-400">&lt;<span className="text-red-500">/nsection</span>&gt;</p>
                         </div>
                     </div>
                 </div>
