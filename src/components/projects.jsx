@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { BiLink, BiLogoHtml5, BiLogoJavascript, BiLogoNodejs, BiLogoPostgresql, BiLogoReact, BiLogoTailwindCss, BiLogoTypescript, BiRightArrowAlt } from "react-icons/bi";
+import { BiLink, BiLogoGithub, BiLogoHtml5, BiLogoJavascript, BiLogoNodejs, BiLogoPostgresql, BiLogoReact, BiLogoTailwindCss, BiLogoTypescript, BiRightArrowAlt } from "react-icons/bi";
 import { BiLogoCss3 } from "react-icons/bi";
 import { DiMysql } from "react-icons/di";
 
@@ -55,7 +55,7 @@ const Projects = () => {
             
             tecnologias: [
                 {icon: DiMysql, nome: "Mysql"}, 
-                {icon: BiLogoTailwindCss , nome: "CSS" },
+                {icon: BiLogoTailwindCss , nome: "TailwindCSS" },
                 {icon: BiLogoReact , nome:"React"},
                 {icon: BiLogoNodejs , nome:"Nodejs"},
                 {icon: BiLogoJavascript, nome:"javaScript"},
@@ -73,7 +73,7 @@ const Projects = () => {
             
             tecnologias: [
                 {icon: DiMysql, nome: "Mysql"}, 
-                {icon: BiLogoTailwindCss , nome: "CSS" },
+                {icon: BiLogoTailwindCss , nome: "TailwindCSS" },
                 {icon: BiLogoReact , nome:"React"},
                 {icon: BiLogoNodejs , nome:"Nodejs"},
                 {icon: BiLogoJavascript, nome:"javaScript"},
@@ -133,13 +133,22 @@ const Projects = () => {
 
                                     <div className="flex items-center border border-green-500 text-green-500 text-xl font-semibold gap-2 justify-center p-2 max-w-[70%] m-auto lg:hover:bg-green-300 duration-300 lg:hover:text-green-950">
                                         <BiLink className="w-5 h-auto" />
-                                        <a href={c.link} target="_blank" className="text-2xl">Viel Project</a>
+                                        <a href={c.link} target="_blank" className="text-2xl">View Project</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     )})
                 }
+            </div>
+
+            <div className="flex items-center flex-col mt-10">
+                <p className="text-green-200 text-4xl">Ver mais em:</p>
+
+                <a href="https://github.com/Uriel-Rodrigues" target="_blank" className="flex items-center flex-col mt-5 animate-pulse">
+                    <BiLogoGithub className="fill-green-500 border-2 w-15 h-full border-green-500 rounded" />
+                    <p className="text-green-200 text-2xl">GitHub</p>
+                </a>
             </div>
         </section>
      );
